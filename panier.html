@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+     <!--FONT AWESOME-->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/solid.min.css" integrity="sha512-6/gTF62BJ06BajySRzTm7i8N2ZZ6StspU9uVWDdoBiuuNu5rs1a8VwiJ7skCz2BcvhpipLKfFerXkuzs+npeKA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/js/solid.min.js" integrity="sha512-wabaor0DW08KSK5TQlRIyYOpDrAfJxl5J0FRzH0dNNhGJbeUpHaNj7up3Kr2Bwz/abLvVcJvDrJL+RLFcyGIkg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> 
+     <script src="js/menu.js"></script>
+     <script src="js/gallery.js"></script>
+     <link rel="icon" href="images/logo.png">
+     <title>14's Diner</title>
+</head>
+<body>
+    <header>
+        <div>
+            <i class="fa-solid fa-utensils"></i>
+            <h3>14's Diner</h3>
+        </div>
+        <nav class="menu-desktop">
+            <ul class="list-menu">
+                <li><a href="index.html">accueil</a></li>
+                <li><a href="#plate">menu</a></li>
+                <li><a href="#review">avis</a></li>
+                <li><a href="#order">commandez !</a></li>
+                 <li><a href="panier">Panier</a></li>
+            </ul>
+        </nav>
+        <span onclick="menu()" class="menu-mobile">
+            <i class="fa-solid fa-bars"></i>
+        </span>
+    </header>
+
+    <div class="menu-mobile-list">
+        <h3><a href="#home">accueil</a></h3>
+        <h3><a href="#plate">menu</a></h3>
+        <h3><a href="#review">avis</a></h3>
+        <h3><a href="#order">commandez !</a></h3>
+        <li><a href="panier">Panier</a></li>
+    </div>
+    <section id="basket" class=""flex-column-center>
+    <div id="blocktitrepanier" class="flex-start size80">
+    <h2 id="titre-panier">Veuiller ajouter des produits</h2>    
+    
+    
+   
+    </section>
+    <section id="plate" class="plate">
+        <h1 class="title-section">Spécialités <span> du</span> Moment</h1>
+        <div class="dishes">
+            <div class="dish">
+                <h2>L'espgnol</h2>
+                <img class="img-hover" src="images/bg1.jpg">
+            </div>
+            <div class="dish">
+                <h2>Burger Nordique</h2>
+                <img class="img-hover" src="images/bg2jpg.jpg">
+            </div>
+            <div class="dish">
+                <h2>Pulled Pork</h2>
+                <img class="img-hover" src="images/bg3.jpg">
+            </div>
+            <div class="dish">
+                
+                <h2>Veggie</h2>
+               
+                <img class="img-hover" src="images/bg4.jpg">
+            </div>
+        </div>
+    </section>
+    <section id="popular">
+        <h1 class="title-section"> <span> Petite</span> Faim</h1>
+        <div class="popular-foods">
+            <div class="food">
+                <img src="images/pt1.jpg">
+                <h2>Nuggets</h2>
+        
+                <button class="btn btn-order">Ajouter</button>
+                <h3 class="price">3,99</h3>
+            </div>
+            <div class="food">
+                <img src="images/pt2.jpg">
+                <h2>Croq</h2>
+                <button class="btn btn-order">Ajoutez</button>
+                <h3 class="price">4,99</h3>
+            </div>
+            <div class="food">
+                <img src="images/pt3.jpg">
+                <h2>Mozza Stick</h2>
+                <button class="btn btn-order">Ajoutez</button>
+                <h3 class="price">$3,99</h3>
+            </div>
+            <div class="food">
+                <img src="images/pt4.jpg">
+                <h2>oignon rings</h2>
+                <button class="btn btn-order">Ajoutez</button>
+                <h3 class="price">$5,99</h3>
+            </div>
+        </div>
+    </section>
+    <section id="works">
+        <h2 class="title-section"> <span>Procédure</span></h2>
+        <div class="content">
+            <span>
+                
+                <h3>Choisissez</h3>
+            </span>
+            <span>
+                <h3>Ajoutez</h3>
+            </span>
+            <span>
+                <h3>Commandez</h3>
+            </span>
+            <span>  
+                <h3>A table</h3>
+            </span>
+        </div>    
+    </section>
+    <section id="gallery" class="gallery-all">
+        <h2 class="title-section"> <span>Information</span</h2>
+    <p>Ouvert du lundi au samedi de 11h30-13h30 18h30-22h. Dimanche: 18h30-22h.
+    </p>
+            
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="review">
+        <h2 class="title-section">Derniers <span>AVIS</span></h2>
+        <div class="customer">
+            <div class="custome">
+            
+                <div>
+                    <h2>Michel</h2>
+                    <span>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </span>
+                    <p>Excellent!.</p>
+                </div>
+            </div>
+            <div class="custome">
+                
+                <div>
+                    <h2>Anna</h2>
+                    <span>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </span>
+                    <p>J'ai adoré, personel sympathique.</p>
+                </div>
+            </div>
+            <div class="custome">
+                <div>
+                    <h2>JM</h2>
+                    <span>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </span>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ut leo interdum, imperdiet turpis non, dignissim tortor. Nulla eget risus non nisl pretium consectetur ullamcorper malesuada ante.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="order">
+        <h2 class="title-section">Commandez <span>Maintenant</span></h2>
+        <div class="form">
+            <form>
+                <input class="input" placeholder="  NAME">
+                <input class="input" placeholder="  EMAIL">
+                <input class="input" placeholder="  NUMBER">
+                <input class="input" placeholder="  FOOD NAME">
+                <textarea></textarea>
+                <button class="btn btn-order">Confirmer</button>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <span>
+            <button class="btn btn-order">INSTAGRAM</button>
+            <button class="btn btn-order">FACEBOOK</button>
+            <button class="btn btn-order">LINKEDIN</button>
+        </span>
+    </footer>
+</body>
+</html>
